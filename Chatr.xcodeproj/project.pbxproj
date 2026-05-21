@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E8C3E9742FBE9B9A00C54C65 /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = E8C3E9732FBE9B9A00C54C65 /* Components */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E8C3E93D2FBE8DBD00C54C65 /* Chatr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C3E9742FBE9B9A00C54C65 /* Components in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Chatr;
 			packageProductDependencies = (
+				E8C3E9732FBE9B9A00C54C65 /* Components */,
 			);
 			productName = Chatr;
 			productReference = E8C3E93D2FBE8DBD00C54C65 /* Chatr.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = E8C3E9342FBE8DBD00C54C65;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E8C3E9722FBE9B9A00C54C65 /* XCRemoteSwiftPackageReference "Rog-design-kit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E8C3E93E2FBE8DBD00C54C65 /* Products */;
 			projectDirPath = "";
@@ -328,6 +337,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8C3E9722FBE9B9A00C54C65 /* XCRemoteSwiftPackageReference "Rog-design-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobilenativedev001/Rog-design-kit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8C3E9732FBE9B9A00C54C65 /* Components */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8C3E9722FBE9B9A00C54C65 /* XCRemoteSwiftPackageReference "Rog-design-kit" */;
+			productName = Components;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8C3E9352FBE8DBD00C54C65 /* Project object */;
 }

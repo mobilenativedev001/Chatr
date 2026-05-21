@@ -1,0 +1,15 @@
+{
+  "originHash" : "10032de8f5affb842edff75d7d48fe7e28b6ec3e38091d6fd10485ad3ea53c04",
+  "pins" : [
+    {
+      "identity" : "rog-design-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mobilenativedev001/Rog-design-kit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "90190a53354a89c5814b831893ff8a593292c6ad"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -6,14 +6,20 @@
 //
 
 import SwiftUI
+import Components
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            Text("This is a sample application!")
+      
+            RDSButton(title: "Primary Button", action: {
+                print("Primary Button tapped")
+            }, variant: .primary)
+            
+            RDSButton(title: "Secoundary Button", action: {
+                print("Secondary Button tapped")
+            }, variant: .secondary)
         }
         .padding()
     }
